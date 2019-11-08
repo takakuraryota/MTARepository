@@ -1,0 +1,23 @@
+[main] INFO com.sap.di.ext.mta.proc.DescriptorProcessorImpl - MTA manifest processing on 3 threads
+[main] INFO com.sap.di.ext.mta.cli.CliExecutor - arguments: [--build-target, CF, build]
+[main] INFO com.sap.di.ext.mta.cli.CliExecutor - Archive path is C:\Users\ryota takakura\Desktop\mta-tutorial\mta-tutorial.mtar
+[main] DEBUG com.sap.di.ext.mta.cli.CliBuildExecutor - Starting MTA build
+[main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.dto.DesignDescriptor$$impl0 for bean interface com.sap.di.ext.mta.dto.DesignDescriptor
+[main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.dto.DesignModule$$impl1 for bean interface com.sap.di.ext.mta.dto.DesignModule
+[main] INFO com.sap.di.ext.mta.proc.ProcessingRun - Processing MTA mtaTest
+[main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.proc.ModuleBuildDependency$$impl2 for bean interface com.sap.di.ext.mta.proc.ModuleBuildDependency
+[main] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA mtaTest
+[main] INFO org.eclipse.che.commons.lang.concurrent.ThreadLocalPropagateContext - using a no-op implementation of interface org.eclipse.che.commons.lang.concurrent.ThreadLocalWrapper
+[main] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA mtaTest: created 2 verification tasks
+[pool-1-thread-2] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA mtaTest: started symbol module[myapp2]
+[pool-1-thread-1] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA mtaTest: started symbol module[myapp]
+[pool-1-thread-1] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'myapp': command timeout is 300 seconds
+[pool-1-thread-2] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'myapp2': command timeout is 300 seconds
+[pool-1-thread-2] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'myapp2': command output file is C:\Users\ryota takakura\Desktop\mta-tutorial\.mta\modulebuild3203708289334362295.txt
+[pool-1-thread-1] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'myapp': command output file is C:\Users\ryota takakura\Desktop\mta-tutorial\.mta\modulebuild7449492178498515607.txt
+[pool-1-thread-2] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'myapp2': invoking command [npm.cmd, install, --production]
+[pool-1-thread-1] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'myapp': invoking command [npm.cmd, install, --production]
+[pool-1-thread-1] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA mtaTest: finished symbol module[myapp]
+[pool-1-thread-2] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA mtaTest: finished symbol module[myapp2]
+[main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.dto.DeploymentDescriptor$$impl3 for bean interface com.sap.di.ext.mta.dto.DeploymentDescriptor
+[main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.dto.DeploymentModule$$impl4 for bean interface com.sap.di.ext.mta.dto.DeploymentModule

@@ -1,0 +1,19 @@
+ID: mtaTest
+_schema-version: '2.0'
+version: 1.2.0
+
+modules:
+ - name: myapp
+   type: nodejs
+   path: myapp
+   parameters:
+      memory: 256M
+      random-route: true
+      version: 1.0.1
+ - name: myapp2
+   type: nodejs
+   path: myapp2
+   parameters:
+      memory: 256M
+      random-route: true
+      version: 1.0.2
